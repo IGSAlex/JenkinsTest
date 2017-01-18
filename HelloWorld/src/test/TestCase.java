@@ -25,8 +25,8 @@ public class TestCase {
 	}
 	@Test
 	public void testover(){
-		double expectResult = 1/3;
-		//assertEquals( expectResult, calculator.over(),DELTA);		
+		//double expectResult = 1/3;
+		assertEquals( 1/3, calculator.over(),DELTA);		
 	}
 	
 	
